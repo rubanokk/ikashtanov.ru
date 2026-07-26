@@ -1,0 +1,88 @@
+@import "tailwindcss";
+@import "./content.scss";
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@font-face {
+    font-family: "custom";
+    src: url("../fonts/custom_avtotok_regular.woff") format("woff");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "custom";
+    src: url("../fonts/custom_avtotok_medium.woff") format("woff");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "JetBrainsMono";
+    src: url("../fonts/JetBrainsMono-Regular.woff2") format("woff2");
+    font-weight: 400;
+}
+
+@supports (font-variation-settings: normal) {
+    @font-face {
+        font-family: "GoogleSans";
+        src: url(../fonts/GoogleSans-VariableFont_GRAD,opsz,wght.ttf)
+            format("truetype-variations");
+        font-weight: 100 900;
+        font-style: normal;
+    }
+}
+
+body {
+    font-family: "GoogleSans", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+:root {
+    --bg-color: #fcfbf8;
+    --primary-black: #001011;
+    --primary-gray: #c1c4c2;
+    --primary-orange: #fd5321;
+    --secondary-gray: #ebebeb;
+}
+
+@theme {
+    --font-mono: "JetBrainsMono", sans-serif; 
+    --color-bg-primary: var(--bg-color);
+    --color-gray-primary: var(--primary-gray);
+    --color-orange-primary: var(--primary-orange);
+    --color-black-primary: var(--primary-black);
+    --color-secondary-gray: var(--secondary-gray);
+    --color-woodsmoke-50: #c0c0cc;
+    --color-woodsmoke-100: #b5b5c3;
+    --color-woodsmoke-200: #9e9eb1;
+    --color-woodsmoke-300: #88889e;
+    --color-woodsmoke-400: #72728c;
+    --color-woodsmoke-500: #5f5f75;
+    --color-woodsmoke-600: #4d4d5f;
+    --color-woodsmoke-700: #3b3b48;
+    --color-woodsmoke-800: #282832;
+    --color-woodsmoke-900: #16161b;
+    --color-woodsmoke-950: #0d0d10;
+    --color-woodsmoke-1000: #010101;
+}
+
+.container-full {
+    max-width: 1440px;
+}
+
+.container {
+    max-width: 1360px;
+}
+.btn {
+    display: inline-flex;
+    background-color: var(--primary-orange);
+    color: white;
+    font-weight: 500;
+}
+
+input[type="text"].error {
+    border-color: red;
+}

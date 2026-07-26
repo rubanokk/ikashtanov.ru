@@ -1,0 +1,51 @@
+.content-text {
+
+  h2,
+  h3,
+  h4 {
+    font-weight: 600;
+    margin: 22px 0 10px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  p {
+    margin-bottom: 15px;
+  }
+
+  p:not(:last-child) {
+    margin-bottom: 15px;
+  }
+
+  strong {
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  a {
+    color: var(--red-primary);
+  }
+
+  ol {
+    list-style: decimal;
+    padding-left: 24px;
+  }
+
+  p:has(> img) {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0,0,0,.05);
+    overflow: hidden;
+  }
+
+  a {
+    color: var(--primary-orange);
+  }
+}
+
