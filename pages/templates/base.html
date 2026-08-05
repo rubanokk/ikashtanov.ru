@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Title -->
+    <title>{% block title %}{{ seo_title }}{% endblock %}</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="{% block description %}{{ seo_description|default:"Default site description" }}{% endblock %}">
+    <meta name="keywords" content="{% block keywords %}{{ seo_keywords|default:"django, web, development" }}{% endblock %}">
+    
+    
+    {% block extra_meta %}{% endblock %}
+</head>
+<body>
+    {% include "header.html" %}
+    {% block content %}{% endblock %}
+</body>
+</html>
