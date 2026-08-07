@@ -1,2 +1,6 @@
 env
 __pycache__
+node_modules
+webpack-stats.json
+assets/webpack_bundles/
+media

@@ -1,3 +1,5 @@
+{% load render_bundle from webpack_loader %}
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,10 +13,12 @@
     <meta name="description" content="{% block description %}{{ seo_description|default:"Default site description" }}{% endblock %}">
     <meta name="keywords" content="{% block keywords %}{{ seo_keywords|default:"django, web, development" }}{% endblock %}">
     
-    
     {% block extra_meta %}{% endblock %}
+    
+    {% render_bundle 'main' 'js' %}
+    {% render_bundle 'main' 'css' %}
 </head>
-<body>
+<body class="max-w-5xl mx-auto">
     {% include "header.html" %}
     {% block content %}{% endblock %}
 </body>
