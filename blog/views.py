@@ -8,6 +8,6 @@ def index(request):
     # return HttpResponse(template.render(context, request))
     return render(request, "blog/index.html", context)
 
-def show(request, post_id):
-    post = get_object_or_404(Post, pk=post_id)
+def show(request, slug):
+    post = get_object_or_404(Post, slug=slug)
     return render(request, "blog/show.html", {"post": post})

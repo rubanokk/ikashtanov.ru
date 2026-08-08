@@ -2,9 +2,11 @@ from django.db import models
 from imagekit.models import ImageSpecField
 from imagekit.processors import ResizeToFill
 from django_ckeditor_5.fields import CKEditor5Field
+from django.template.defaultfilters import slugify
 
 class Post(models.Model):
     title = models.CharField(max_length=200)
+    slug = models.SlugField(blank=False, unique=True, null=True)
     pub_date = models.DateTimeField("date published")
     text = CKEditor5Field('Text', config_name='extends', blank=True, null=True)
     preview_image = models.ImageField(upload_to='blog/previews/', blank=True, null=True)
