@@ -154,11 +154,9 @@ CKEDITOR_5_CONFIGS = {
             'items': ['heading', '|', 'bold', 'italic', 'link',
                       'bulletedList', 'numberedList', 'blockQuote', 'imageUpload', ],
                     }
-
     },
     'extends': {
         'mediaEmbed': {'previewsInData': 'true'},
-        
         'blockToolbar': [
             'paragraph', 'heading1', 'heading2', 'heading3',
             '|',
@@ -185,7 +183,6 @@ CKEDITOR_5_CONFIGS = {
                 'alignRight',
                 'alignCenter',
             ]
-
         },
         'heading' : {
             'options': [
