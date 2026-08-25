@@ -1,4 +1,4 @@
-    <div class="flex flex-col border-b lg:border-r lg:border-b-0 last:border-none border-woodsmoke-800 p-4 lg:p-8">
+    <div class="flex flex-col">
         <div>
             <img src="/images/{{ $item['image'] }}" class="w-10" alt="">
             <div class="text-2xl text-white mt-6">{{ $item['title'] }}</div>

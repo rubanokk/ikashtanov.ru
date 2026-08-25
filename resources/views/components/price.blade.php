@@ -24,16 +24,14 @@
     ];
 @endphp
 
-<div id="price" class="border-b border-woodsmoke-800">
-    <div class="container mx-auto border-x border-woodsmoke-800 relative">
-        <div class="pt-24 pb-20">
+<div id="price">
+        <div class="mt-10 pb-20">
             <h3 class="text-4xl lg:text-4xl text-white text-center">Стоимость и сроки</h3>
         </div>
 
-        <div class="grid lg:grid-cols-3 gap-3 border-t border-woodsmoke-800">
+        <div class="grid lg:grid-cols-3 gap-3">
             @foreach ($items as $item)
                 <x-price-item :item="$item"></x-price-item>
             @endforeach
         </div>
-    </div>
 </div>

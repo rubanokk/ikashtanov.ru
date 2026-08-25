@@ -9,10 +9,6 @@ use MoonShine\ColorManager\Palettes\PurplePalette;
 use MoonShine\ColorManager\ColorManager;
 use MoonShine\Contracts\ColorManager\ColorManagerContract;
 use MoonShine\Contracts\ColorManager\PaletteContract;
-use App\MoonShine\Resources\Post\PostResource;
-use MoonShine\MenuManager\MenuItem;
-use App\MoonShine\Resources\Category\CategoryResource;
-use App\MoonShine\Resources\Lead\LeadResource;
 
 final class MoonShineLayout extends AppLayout
 {
@@ -31,9 +27,6 @@ final class MoonShineLayout extends AppLayout
     protected function menu(): array
     {
         return [
-            MenuItem::make(LeadResource::class, 'Завяки'),
-            MenuItem::make(PostResource::class, 'Журнал'),
-            MenuItem::make(CategoryResource::class, 'Категории'),
             ...parent::menu(),
         ];
     }

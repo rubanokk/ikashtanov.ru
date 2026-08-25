@@ -1,5 +1,5 @@
-<footer id="contacts" class="border-t border-woodsmoke-800">
-    <div class="container mx-auto px-5 lg:px-10 pt-15 md:pt-20 pb-10 lg:border-x border-woodsmoke-800">
+<footer id="contacts" class="bg-black text-white">
+    <div class="px-5 py-10">
         {{-- <div class="grid lg:grid-cols-3 gap-10 max-w-5xl mt-10">
             <div class="flex flex-col items-start gap-3">
                 <div class="text-xl lg:text-2xl">Написать</div>

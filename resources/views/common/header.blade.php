@@ -1,14 +1,9 @@
-<header class="sticky inset-x-0 top-0 border-b border-woodsmoke-800 z-2 backdrop-blur-3xl bg-woodsmoke-950/60">
-    <div class="container-full mx-auto px-5 lg:px-10 py-4 flex items-center justify-between h-18">
-        <a href="/" class="lg:text-xl font-medium whitespace-nowrap text-white">
-            {{-- <div class="inline-flex justify-center items-center bg-white rounded-2xl text-black w-8 h-8">
-                <svg class="icon-svg h-6 w-6">
-                    <use xlink:href="#icon-logo" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
-                </svg>
-            </div> --}}
+<header class="sticky inset-x-0 top-0 z-2 bg-white">
+    <div class="py-4 flex items-center justify-between h-20">
+        <a href="/" class="lg:text-xl font-medium whitespace-nowrap">
             Студия&nbsp;Каштанова
         </a>
-        <div class="flex items-center gap-7 text-white">
+        <div class="flex items-center gap-7">
             <ul class="hidden lg:flex justify-center gap-16">
                 <li><a href="/#about">Почему мы</a></li>
                 <li><a href="/#price">Стоимость</a></li>

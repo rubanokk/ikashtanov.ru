@@ -1,9 +1,9 @@
-<div id="works" class="container mx-auto  lg:border-x border-woodsmoke-800 relative">
-        <div class="p-4 py-8 lg:pt-24 lg:pb-20 lg:px-8">
-            <h3 class="text-4xl lg:text-4xl text-white">Портфолио 2024&nbsp;—&nbsp;2026</h3>
+<div id="works">
+        <div class=" mt-16">
+            <h3 class="text-4xl lg:text-4xl">Портфолио 2025&nbsp;—&nbsp;2026</h3>
         </div>
 
-        <div class="">
+        <div class="flex flex-col gap-8">
             {{-- BOGACHO  --}}
             <x-work title="Интернет-магазин «BOGACHO»" link="bogacho.ru" image="bogacho-bitrix.png" imageWidth="400px">
                 <p>«BOGACHO» — российский производитель мебели и предметов интерьера в премиум сегменте с 1994-года.

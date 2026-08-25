@@ -22,7 +22,7 @@ class Dashboard extends Page
 
     public function getTitle(): string
     {
-        return $this->title ?: 'Панель управления';
+        return $this->title ?: 'Dashboard';
     }
 
     /**

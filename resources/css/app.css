@@ -7,27 +7,21 @@
 @source '../**/*.js';
 
 @font-face {
-    font-family: "custom";
-    src: url("../fonts/custom_avtotok_regular.woff") format("woff");
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: "custom";
-    src: url("../fonts/custom_avtotok_medium.woff") format("woff");
-    font-weight: 500;
-}
-
-@font-face {
     font-family: "JetBrainsMono";
     src: url("../fonts/JetBrainsMono-Regular.woff2") format("woff2");
     font-weight: 400;
 }
 
+@font-face {
+    font-family: "JetBrainsSans";
+    src: url("../fonts/SuisseIntl-Regular-WebXL.woff2") format("woff2");
+    font-weight: 400;
+}
+
 @supports (font-variation-settings: normal) {
     @font-face {
-        font-family: "GoogleSans";
-        src: url(../fonts/GoogleSans-VariableFont_GRAD,opsz,wght.ttf)
+        font-family: "Geist";
+        src: url(../fonts/Geist-VariableFont_wght.ttf)
             format("truetype-variations");
         font-weight: 100 900;
         font-style: normal;
@@ -35,38 +29,9 @@
 }
 
 body {
-    font-family: "GoogleSans", Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    line-height: 24px;
-}
-
-:root {
-    --bg-color: #fcfbf8;
-    --primary-black: #001011;
-    --primary-gray: #c1c4c2;
-    --primary-orange: #fd5321;
-    --secondary-gray: #ebebeb;
-}
-
-@theme {
-    --font-mono: "JetBrainsMono", sans-serif; 
-    --color-bg-primary: var(--bg-color);
-    --color-gray-primary: var(--primary-gray);
-    --color-orange-primary: var(--primary-orange);
-    --color-black-primary: var(--primary-black);
-    --color-secondary-gray: var(--secondary-gray);
-    --color-woodsmoke-50: #c0c0cc;
-    --color-woodsmoke-100: #b5b5c3;
-    --color-woodsmoke-200: #9e9eb1;
-    --color-woodsmoke-300: #88889e;
-    --color-woodsmoke-400: #72728c;
-    --color-woodsmoke-500: #5f5f75;
-    --color-woodsmoke-600: #4d4d5f;
-    --color-woodsmoke-700: #3b3b48;
-    --color-woodsmoke-800: #282832;
-    --color-woodsmoke-900: #16161b;
-    --color-woodsmoke-950: #0d0d10;
-    --color-woodsmoke-1000: #010101;
+    font-family: "JetBrainsSans", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
 }
 
 .container-full {
@@ -77,10 +42,18 @@ body {
     max-width: 1360px;
 }
 .btn {
-    display: inline-flex;
-    background-color: var(--primary-orange);
-    color: white;
-    font-weight: 500;
+    display: inline-block;
+    padding: .45em .65em .5em;
+    box-shadow: 0 .5em 1.5em rgba(0, 130, 255, .5);
+    background-color: RGB(0, 130, 255);
+    color: #fff;
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    border: 0;
+    border-radius: 12px;
+    transition: background-color .5s ease, box-shadow .5s ease;
 }
 
 input[type="text"].error {
