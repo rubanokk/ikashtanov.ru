@@ -16,7 +16,7 @@ class Work extends Component
         // public string $text,
         public string $link,
         public string $image,
-        public string $imageWidth
+        // public string $imageWidth
     )
     { }
 

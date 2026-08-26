@@ -1,15 +1,9 @@
-    <div class="flex flex-col">
-        <div>
-            <img src="/images/{{ $item['image'] }}" class="w-10" alt="">
-            <div class="text-2xl text-white mt-6">{{ $item['title'] }}</div>
-            <div class="mt-4">{{ $item['text'] }}</div>
-        </div>
-        <div class="mt-10">
-            <div class="text-3xl text-white">
-                {{ $item['price'] }}
-            </div>
-            <div class="text-lg opacity-70">
-                {{ $item['period'] }}
-            </div>
-        </div>
+<div class="flex flex-col border-t border-gray-400">
+    <!-- <div class="text-2xl">{{ $item['title'] }}</div> -->
+    <div class="text-5xl text-[#f53] mt-8">
+        {{ $item['price'] }}
     </div>
+    <div class="mt-10">
+        {{ $item['title'] }}, {{ $item['period'] }}
+    </div>
+</div>

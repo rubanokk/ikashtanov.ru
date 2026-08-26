@@ -1,4 +1,4 @@
-<header class="sticky inset-x-0 top-0 z-2 bg-white">
+<header class="sticky inset-x-0 top-0 z-2 bg-white max-w-440 mx-auto lg:px-16 px-4">
     <div class="py-4 flex items-center justify-between h-20">
         <a href="/" class="lg:text-xl font-medium whitespace-nowrap">
             Студия&nbsp;Каштанова

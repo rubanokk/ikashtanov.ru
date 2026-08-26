@@ -1,11 +1,11 @@
 <div id="works">
-        <div class=" mt-16">
+        <div class="mt-36">
             <h3 class="text-4xl lg:text-4xl">Портфолио 2025&nbsp;—&nbsp;2026</h3>
         </div>
 
-        <div class="flex flex-col gap-8">
+        <div class="grid lg:grid-cols-3 gap-14 mt-8 mb-36">
             {{-- BOGACHO  --}}
-            <x-work title="Интернет-магазин «BOGACHO»" link="bogacho.ru" image="bogacho-bitrix.png" imageWidth="400px">
+            <x-work title="Интернет-магазин «BOGACHO»" link="bogacho.ru" image="preview/bogacho.jpg">
                 <p>«BOGACHO» — российский производитель мебели и предметов интерьера в премиум сегменте с 1994-года.
                 </p>
                 <p class="mt-4">
@@ -17,14 +17,14 @@
                 </p>
             </x-work>
             {{-- BOGACHO  --}}
-            <x-work title="Промо-сайт «BOGACHO»" link="promo.bogacho.ru" image="bogacho.png" imageWidth="200px">
+            <x-work title="Промо-сайт «BOGACHO»" link="promo.bogacho.ru" image="preview/bogacho-landing.jpg">
                 <p class="mt-4">
                     Разработали дизайн и создали сайт для «BOGACHO», на котором пользователи могут подобрать премиальные
                     подарки для мужчин.
                 </p>
             </x-work>
             {{-- fromshelter  --}}
-            <x-work title="Проект «Из приюта»" link="fromshelter.com" image="fromshelter.png" imageWidth="200px">
+            <x-work title="Проект «Из приюта»" link="fromshelter.com" image="preview/fromshelter.jpg">
                 <p>Задача: разработка площадки которая всключает в себя базу приютов для животных, медиа и различные
                     сервисы для зооволонтеров.</p>
                 <p class="mt-4">
@@ -33,7 +33,7 @@
                 </p>
             </x-work>
             {{-- Мой бизнес  --}}
-            <x-work title="Центр «Мой бизнес»" link="мойбизнес11.рф" image="buisness.png" imageWidth="400px">
+            <x-work title="Центр «Мой бизнес»" link="мойбизнес11.рф" image="preview/buisness.jpg">
                 <p>«Мой бизнес» Коми — региональное отделение национального проекта в регионе.</p>
                 <p class="mt-4">
                     Визуальный стиль разработан в рамках гайдлайнов проекта. В
@@ -42,7 +42,7 @@
                 </p>
             </x-work>
             {{-- Децибелка  --}}
-            <x-work title="Интернет-магазин «Децибелка»" link="decibelka.ru" image="eauto.png" imageWidth="400px">
+            <x-work title="Интернет-магазин «Децибелка»" link="decibelka.ru" image="preview/decibelka.jpg">
                 <p>«Децибелка» — сеть магазинов автозвука, автоэлектроники и охранных систем в Сыктывкаре.</p>
                 <p class="mt-4">
                     Создали адаптивный дизайн исходя от брендбука заказчика. Пренесли все содержимое со старого сайта
@@ -50,7 +50,7 @@
                 </p>
             </x-work>
             {{-- Автоток  --}}
-            <x-work title="Интернет-магазин «Автоток»" link="автоток11.рф" image="avtotok.png" imageWidth="500px">
+            <x-work title="Интернет-магазин «Автоток»" link="автоток11.рф" image="preview/avtotok.jpg">
                 <p class="mt-4">
                     Нарисовали динамичный дизайн исходя из фирменного стиля клиента в черно-желтых цветах. Сделали
                     интеграцию с 1С, запустили сайт, каждый элемент которого разработан на основе бизнес-задач
@@ -58,7 +58,7 @@
                 </p>
             </x-work>
             {{-- Nothouse  --}}
-            <x-work title="Магазин «Nothouse»" link="nh11.ru" image="nh11.png" imageWidth="500px">
+            <x-work title="Магазин «Nothouse»" link="nh11.ru" image="preview/nh.jpg">
                 <p>«Nothouse» — поставщик отопительного оборудования в Республике Коми.</p>
                 <p class="mt-4">
                     Нарисовали адаптивный дизайн в «теплых» тонах как отсылка на специфику товара. Запрограммировали
@@ -68,7 +68,7 @@
                 </p>
             </x-work>
             {{-- Натали  --}}
-            <x-work title="Интернет-магазин «Натали»" link="mebel-natali.com" image="natali.png" imageWidth="600px">
+            <x-work title="Интернет-магазин «Натали»" link="mebel-natali.com" image="preview/natali.jpg">
                 <p>«Натали» — сеть мебельных магазинов в Республике Коми.</p>
                 <p class="mt-4">
                     Cделали динамичный дизайн исходя из фирменного стиля клиента в черно-желтых цветах. Сделали

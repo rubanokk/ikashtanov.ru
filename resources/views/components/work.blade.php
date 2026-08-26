@@ -1,18 +1,13 @@
-<section class="flex flex-col lg:flex-row justify-between gap-8 ">
-    <div class="">
-        <h2 class="text-2xl lg:text-2xl text-white">
-            {{ $title }}
-        </h2>
-        <div class="mt-4 lg:mt-8 max-w-3xl">
-            {{ $slot }}
-        </div>
+<section class="">
+    <img src="/portfolio/{{ $image }}" class="rounded w-full" alt="">
+    
+    <h2 class="text-2xl lg:text-2xl mt-6">
+        {{ $title }}
+    </h2>
 
-        <a href="https://{{ $link }}" target="_blank"
-            class="block mt-8 text-indigo-600 font-mono">{{ $link }}</a>
+    <div class="mt-4 lg:mt-4 max-w-3xl text-base">
+        {{ $slot }}
     </div>
 
-    <div class="w-full lg:max-w-150 lg:min-w-150 flex justify-center items-center">
-        <img src="/portfolio/{{ $image }}" class="" width="{{ $imageWidth }}"
-        alt="">
-    
+    <a href="https://{{ $link }}" target="_blank" class="link mt-4 ">{{ $link }}</a>
 </section>
