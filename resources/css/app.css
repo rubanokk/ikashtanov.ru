@@ -69,3 +69,10 @@ input[type="text"].error {
 .link:hover {
     border-bottom: 1px solid rgba(0, 0, 0, .7);
 }
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
