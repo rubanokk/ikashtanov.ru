@@ -17,7 +17,7 @@
                 </p>
             </x-work>
             {{-- BOGACHO  --}}
-            <x-work title="Промо-сайт «BOGACHO»" link="promo.bogacho.ru" image="preview/bogacho-landing.jpg">
+            <x-work title="Промо-сайт «BOGACHO»" link="bogacho.ikashtanov.ru/" image="preview/bogacho-landing.jpg">
                 <p class="mt-2 lg:mt-4">
                     Разработали дизайн и создали сайт для «BOGACHO», на котором пользователи могут подобрать премиальные
                     подарки для мужчин.

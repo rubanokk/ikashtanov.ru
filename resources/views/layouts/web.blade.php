@@ -23,7 +23,9 @@
     @include('common/footer')
     @include('common/form')
     @include('common/icons')
-    @include('common/metrika')
+    @env('production')
+        @include('common/metrika')
+    @endenv
 </body>
 
 </html>
