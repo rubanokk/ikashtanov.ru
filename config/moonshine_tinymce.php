@@ -13,7 +13,8 @@ return [
         . 'numlist bullist indent outdent | removeformat | codesample '
         . 'fullscreen preview visualblocks visualchars code',
     'options' => [
-        'file_manager' => 'laravel-filemanager'
+        'file_manager' => 'laravel-filemanager',
+        'sandbox_iframes_exclusions' => 'vkvideo.ru'
     ],
     'callbacks' => [],
 ];

@@ -1,5 +1,5 @@
-<footer id="contacts" class="bg-black text-white pt-8 lg:pt-16 pb-12 lg:pb-26">
-    <div class="grid lg:grid-cols-3 gap-6 lg:gap-14 max-w-440 mx-auto lg:px-16 px-4 text-[16px]">
+<footer id="contacts" class="bg-[#040710] text-white py-8 lg:py-16  bg-[url('/public/images/bg-footer.png')] bg-no-repeat bg-right-bottom px-4 lg:px-0">
+    <div class="flex flex-col gap-12 max-w-350 mx-auto  text-[16px]">
         <div class="flex flex-col lg:gap-3">
             <label class="opacity-50">
                 Написать

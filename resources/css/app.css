@@ -6,22 +6,10 @@
 @source '../**/*.blade.php';
 @source '../**/*.js';
 
-@font-face {
-    font-family: "JetBrainsMono";
-    src: url("../fonts/JetBrainsMono-Regular.woff2") format("woff2");
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: "JetBrainsSans";
-    src: url("../fonts/SuisseIntl-Regular-WebXL.woff2") format("woff2");
-    font-weight: 400;
-}
-
 @supports (font-variation-settings: normal) {
     @font-face {
-        font-family: "Geist";
-        src: url(../fonts/Geist-VariableFont_wght.ttf)
+        font-family: "JetBrainsMono";
+        src: url(../fonts/JetBrainsMono.ttf)
             format("truetype-variations");
         font-weight: 100 900;
         font-style: normal;
@@ -29,9 +17,10 @@
 }
 
 body {
-    font-family: "JetBrainsSans", Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    line-height: 30px;
+    font-family: "JetBrainsMono", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 300;
 }
 
 .container-full {

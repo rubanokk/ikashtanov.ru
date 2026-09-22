@@ -1,5 +1,5 @@
-<header class="sticky inset-x-0 top-0 z-2 bg-white max-w-440 mx-auto lg:px-16 px-4">
-    <div class="py-4 flex items-center justify-between h-20">
+<header class="sticky inset-x-0 top-4 z-90 max-w-350 mx-auto px-4 lg:px-0">
+    <div class="h-14 lg:h-18 flex items-center justify-between px-4 border border-[#262c36] rounded-xl bg-[#040710]">
         <a href="/" class="lg:text-xl font-medium whitespace-nowrap">
             Студия&nbsp;Каштанова
         </a>
@@ -13,18 +13,17 @@
         </div>
 
         <div
-            class="js-menu-toggle fixed right-4 px-3 flex gap-1.5 lg:hidden justify-center items-center z-90">
+            class="js-menu-toggle lg:hidden">
            Меню
         </div>
     </div>
-
 </header>
 
-<div id="mobile-menu" class="hidden fixed top-18 left-0 right-0 bottom-0 backdrop-blur-xl bg-woodsmoke-950/40 z-80 text-xl">
-    <ul class="flex flex-col justify-center items-center mt-16">
-        <li><a href="/#about" class="block py-4 px-4">Почему мы</a></li>
-        <li><a href="/#price" class="block py-4 px-4">Стоимость</a></li>
-        <li><a href="/#works" class="block py-4 px-4">Портфолио</a></li>
-        <li><a href="/#contacts" class="block py-4 px-4">Контакты</a></li>
+<div id="mobile-menu" class="fixed top-0 left-0 right-0 bottom-0 bg-[#040710] z-80 text-xl -translate-y-full transition">
+    <ul class="flex flex-col gap-6 mt-30 px-4">
+        <li><a href="/#about" class="">Почему мы</a></li>
+        <li><a href="/#price" class="">Стоимость</a></li>
+        <li><a href="/#works" class="">Портфолио</a></li>
+        <li><a href="/#contacts" class="">Контакты</a></li>
     </ul>
 </div>

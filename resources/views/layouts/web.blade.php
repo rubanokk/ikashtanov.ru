@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="min-h-screen bg-woodsmoke-1000">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="min-h-screen bg-[#040710] text-white">
 
 <head>
     <meta charset="utf-8">
@@ -15,7 +15,7 @@
 
 </head>
 
-<body class="font-sans antialiased text-woodsmoke-400 relative">
+<body class="font-sans antialiased relative ">
     @include('common/header')
     <main class="w-full flex-row h-full">
         @yield('content')
